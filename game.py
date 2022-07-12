@@ -5,6 +5,9 @@ print("Rock, Paper, Scissors, Shoot!")
 
 
 # USER INPUTS
+player_choice = input("Welcome! Please make a selection ('rock', 'paper', 'scissors'): ")
+
+print("You chose:", player_choice)
 
 
 # VALIDATE USER INPUTS
