@@ -14,10 +14,17 @@ Save
 
 Step 2: Set up the environment
 Create and activate a new project-specific Anaconda virtual environment from the command-line:
+```sh
 conda create -n my-game-env python=3.8
+```
+
+```sh
 conda activate my-game-env
+```
 
 From within this new environment, test running the Python script from the command-line:
+```sh
 python game.py
+```
 
 If you see the "Rock, Paper, Scissors, Shoot!" message, things have been set up correctly.
