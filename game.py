@@ -13,10 +13,14 @@ print("You chose:", player_choice)
 
 
 # VALIDATE USER INPUTS
-
-
-# SIMULATE COMPUTER SELECTION
 valid_choices = ["rock", "paper", "scissors"]
+
+if player_choice not in valid_choices:
+    print("Invalid. Please ensure you make a valid selection.")
+    exit()
+    
+# SIMULATE COMPUTER SELECTION
+
 computer_choice = random.choice(valid_choices)
 print("Computer chose:", computer_choice)
 
