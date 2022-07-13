@@ -7,6 +7,7 @@ print("Rock, Paper, Scissors, Shoot!")
 
 # USER INPUTS
 player_choice = input("Welcome! Please make a selection ('rock', 'paper', 'scissors'): ")
+player_choice = player_choice.lower()
 
 print("You chose:", player_choice)
 
@@ -20,6 +21,7 @@ computer_choice = random.choice(valid_choices)
 print("Computer chose:", computer_choice)
 
 # DETERMINE THE WINNER
+# inspiration for code language from https://nyu-tech-2335.slack.com/archives/C5WPFSB52
 if player_choice == computer_choice:
     print("You both chose ", player_choice,". It's a tie!")
 elif player_choice == "rock" and computer_choice == "paper":
