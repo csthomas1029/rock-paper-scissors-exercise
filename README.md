@@ -13,7 +13,7 @@ cd ~\desktop\GitHub\rock-paper-scissors-exercise
 ```
 
 In Visual Studio Code, add a new file and name it "game.py". Type the following:
-# this is the "game.py" file...
+
 print("Rock, Paper, Scissors, Shoot!")
 Save
 
