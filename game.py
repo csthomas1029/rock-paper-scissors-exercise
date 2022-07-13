@@ -20,6 +20,22 @@ computer_choice = random.choice(valid_choices)
 print("Computer chose:", computer_choice)
 
 # DETERMINE THE WINNER
+if player_choice == computer_choice:
+    print("You both chose ", player_choice,". It's a tie!")
+elif player_choice == "rock" and computer_choice == "paper":
+    print("Oh, the computer won. It's ok.")
+elif player_choice == "rock" and computer_choice == "scissors":
+    print("Congrats! You beat the computer.")
+elif player_choice == "paper" and computer_choice == "rock":
+    print("Congrats! You beat the computer.")
+elif player_choice == "paper" and computer_choice == "scissors":
+    print("Oh, the computer won. It's ok.")
+elif player_choice == "scissors" and computer_choice == "rock":
+    print("Oh, the computer won. It's ok.")
+elif player_choice == "scissors" and computer_choice == "paper":
+    print("Congrats! You beat the computer.")
+else:
+    print("Invalid. Please note that the selections are case sensitive.")
 
 
 # DISPLAY THE RESULTS
