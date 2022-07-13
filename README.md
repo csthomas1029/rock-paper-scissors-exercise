@@ -12,7 +12,7 @@ In Git Bash, use the command-line to navigate to this repo on your drive (note y
 cd ~\desktop\GitHub\rock-paper-scissors-exercise
 ```
 
-In Visual Studio Code, add a new file and name it "game.py". Type the following:
+In Visual Studio Code, add a new file and name it "game.py". Type the following and then save:
 
 print("Rock, Paper, Scissors, Shoot!")
 Save
@@ -39,11 +39,11 @@ There is no pip install required for this game.
 # step 3: input the code for the game
 This is a standard game of rock-paper-scissors. The player needs to choose either rock, paper or scissors and then the computer will also choose one of those three options. If they pick the same option, it's a tie. Otherwise, rock beats scissors, paper beats rock, and scissors beat paper.
 
-You will see in the game.py file that there is code to process the player's input, which standardizes the input to lowercase and let's the user know if there input is invalid.
+You will see in the game.py file that there is code to process the player's input, which standardizes the input to lowercase and let's the user know if their input is invalid.
 
 You will also see in the game.py file that there is code to process the computer's selection using the choice() function provided by the random module. Note that in order to simulate random computer selection in our game, you must first import the random module. You will see this near the top of my game.py file as:
 
-import random
+    import random
 
 
 You will also see in the game.py file that there is code to determine the outcome of the game.
@@ -53,7 +53,7 @@ Copy the code from my game.py file into yours and save.
 *Note that there are many ways to write this code to achieve the same game experience. You should feel free to play around with other strategies for executing the code in this game.
 
 
-# step 5: play the game
+# step 4: play the game
 from the command-line, run the python script:
 
 ```

@@ -22,6 +22,7 @@ if player_choice not in valid_choices:
     exit()
 # this way the game ends with a logical message if the player puts in an invalid selection
 
+
 # SIMULATE COMPUTER SELECTION
 computer_choice = random.choice(valid_choices)
 print("Computer chose:", computer_choice)
