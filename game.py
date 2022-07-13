@@ -1,4 +1,5 @@
 # this is the "game.py" file...
+import random
 
 print("Rock, Paper, Scissors, Shoot!")
 
@@ -14,7 +15,9 @@ print("You chose:", player_choice)
 
 
 # SIMULATE COMPUTER SELECTION
-
+valid_choices = ["rock", "paper", "scissors"]
+computer_choice = random.choice(valid_choices)
+print("Computer chose:", computer_choice)
 
 # DETERMINE THE WINNER
 
