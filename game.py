@@ -1,6 +1,7 @@
 # this is the "game.py" file...
 # inspiration for code language from https://nyu-tech-2335.slack.com/archives/C5WPFSB52
 import random
+# this imports the random module which we need for the computer selection
 
 print("Rock, Paper, Scissors, Shoot!")
 
@@ -8,7 +9,7 @@ print("Rock, Paper, Scissors, Shoot!")
 # USER INPUTS
 player_choice = input("Welcome! Please make a selection ('rock', 'paper', 'scissors'): ")
 player_choice = player_choice.lower()
-# this was every time we use the player_choice it will be lowercase
+# this way every time we use the player_choice it will be lowercase
 
 print("You chose:", player_choice)
 
@@ -19,10 +20,9 @@ valid_choices = ["rock", "paper", "scissors"]
 if player_choice not in valid_choices:
     print("Invalid. Please ensure you make a valid selection.")
     exit()
-
+# this way the game ends with a logical message if the player puts in an invalid selection
 
 # SIMULATE COMPUTER SELECTION
-
 computer_choice = random.choice(valid_choices)
 print("Computer chose:", computer_choice)
 
